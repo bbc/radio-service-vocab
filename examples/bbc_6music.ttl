@@ -1,0 +1,19 @@
+@prefix radiodns: <http://radiodns.org/ns/> .
+
+<http://www.bbc.co.uk/services/p00fzl65#service> a radiodns:Service;
+   radiodns:bearer [
+     a radiodns:BeaererDAB;
+     radiodns:cost 20;
+     radiodns:eid "ce15";
+     radiodns:gcc "ce1";
+     radiodns:mimeValue "audio/mpeg";
+     radiodns:scids "0";
+     radiodns:sid "c22b"
+   ];
+   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.6>;
+   radiodns:homepage <http://www.bbc.co.uk/6music>;
+   radiodns:longDescription "The place for the best Alternative Music. From Indie Pop and Iconic Rock to Trip Hop, Electronica and Dance with great Archive Music Sessions, Live Music Concerts and Documentaries";
+   radiodns:longName "BBC Radio 6 music";
+   radiodns:mediumName "BBC 6 music";
+   radiodns:shortDescription "Where extraordinary Music plays";
+   radiodns:shortName "BBC 6Mus" .

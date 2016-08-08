@@ -1,0 +1,25 @@
+@prefix radiodns: <http://radiodns.org/ns/> .
+
+<http://www.bbc.co.uk/services/p00fzl6f#service> a radiodns:Service;
+   radiodns:bearer [
+     a radiodns:BearerFM;
+     radiodns:cost 30;
+     radiodns:frequency "94.90";
+     radiodns:gcc "ce1";
+     radiodns:pi "cc11"
+   ],  [
+     a radiodns:BeaererDAB;
+     radiodns:cost 20;
+     radiodns:eid "c186";
+     radiodns:gcc "ce1";
+     radiodns:mimeValue "audio/mpeg";
+     radiodns:scids "0";
+     radiodns:sid "cc31"
+   ];
+   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
+   radiodns:homepage <http://www.bbc.co.uk/bbclondon>;
+   radiodns:longDescription "London's radio station - First for news, sport, travel, weather and entertainment with your views and stories. Call 0207 224 2000, text 'London' followed by your message to 81333.";
+   radiodns:longName "BBC Radio London";
+   radiodns:mediumName "BBC Radio London";
+   radiodns:shortDescription "London's news, London's stories";
+   radiodns:shortName "BBCLondn" .
