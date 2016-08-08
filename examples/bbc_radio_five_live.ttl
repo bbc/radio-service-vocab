@@ -1,6 +1,13 @@
 @prefix radiodns: <http://radiodns.org/ns/> .
 
 <http://www.bbc.co.uk/services/p00fzl7g#service> a radiodns:Service;
+   radiodns:shortName "BBC R5L" .
+   radiodns:mediumName "BBC Radio 5 live";
+   radiodns:longName "BBC Radio 5 live";
+   radiodns:shortDescription "Live news - live sport";
+   radiodns:longDescription "Live news and live sport. Premier League football, Champions League football, Europa League football, international football, FA Cup football, Championship Football, Football League, Scottish Premier League football and League Cup football commentary. Football discussion and debate, and the home of the football phone-in, 606. Formula 1 coverage with commentary from all the Grand Prix. Live tennis commentary from Wimbledon, plus golf coverage from the Open, the Masters, the US Open and PGA golf tournaments. Cricket coverage with updates from England test matches, one day, and Twenty20 internationals. Sports news, sport documentaries and sport discussion. Plus national and international news: politics news including the latest from Westminster, business and money news, consumer news, investigative journalism, health news, entertainment news including film and movie reviews, and travel news";
+   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
+   radiodns:homepage <http://www.bbc.co.uk/5live>;
    radiodns:bearer [
      a radiodns:BeaererDAB;
      radiodns:cost 20;
@@ -10,10 +17,15 @@
      radiodns:scids "0";
      radiodns:sid "c225"
    ];
-   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
-   radiodns:homepage <http://www.bbc.co.uk/5live>;
-   radiodns:longDescription "Live news and live sport. Premier League football, Champions League football, Europa League football, international football, FA Cup football, Championship Football, Football League, Scottish Premier League football and League Cup football commentary. Football discussion and debate, and the home of the football phone-in, 606. Formula 1 coverage with commentary from all the Grand Prix. Live tennis commentary from Wimbledon, plus golf coverage from the Open, the Masters, the US Open and PGA golf tournaments. Cricket coverage with updates from England test matches, one day, and Twenty20 internationals. Sports news, sport documentaries and sport discussion. Plus national and international news: politics news including the latest from Westminster, business and money news, consumer news, investigative journalism, health news, entertainment news including film and movie reviews, and travel news";
-   radiodns:longName "BBC Radio 5 live";
-   radiodns:mediumName "BBC Radio 5 live";
-   radiodns:shortDescription "Live news - live sport";
-   radiodns:shortName "BBC R5L" .
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 693;
+   ];
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 909;
+   ];
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 990;
+   ] .

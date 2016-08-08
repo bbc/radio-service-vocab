@@ -1,6 +1,13 @@
 @prefix radiodns: <http://radiodns.org/ns/> .
 
 <http://www.bbc.co.uk/services/p00fzl9p#service> a radiodns:Service;
+   radiodns:shortName "BBC WS" .
+   radiodns:mediumName "BBC WorldService";
+   radiodns:longName "BBC World Service";
+   radiodns:shortDescription "BBC international radio";
+   radiodns:longDescription "The BBC's international radio station";
+   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
+   radiodns:homepage <http://www.bbc.co.uk/worldserviceradio>;
    radiodns:bearer [
      a radiodns:BeaererDAB;
      radiodns:cost 20;
@@ -9,11 +16,4 @@
      radiodns:mimeValue "audio/mpeg";
      radiodns:scids "0";
      radiodns:sid "c238"
-   ];
-   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
-   radiodns:homepage <http://www.bbc.co.uk/worldserviceradio>;
-   radiodns:longDescription "The BBC's international radio station";
-   radiodns:longName "BBC World Service";
-   radiodns:mediumName "BBC WorldService";
-   radiodns:shortDescription "BBC international radio";
-   radiodns:shortName "BBC WS" .
+   ] .

@@ -1,6 +1,13 @@
 @prefix radiodns: <http://radiodns.org/ns/> .
 
 <http://www.bbc.co.uk/services/p00fzl7j#service> a radiodns:Service;
+   radiodns:shortName "BBC R4";
+   radiodns:mediumName "BBC Radio 4";
+   radiodns:longName "BBC Radio 4";
+   radiodns:shortDescription "Radio for curious minds";
+   radiodns:longDescription "Intelligent speech, journalism, comedy, quizzes, poetry, drama, readings, politics, arts, discussion, documentaries, history, life stories, money, science, news and weather";
+   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
+   radiodns:homepage <http://www.bbc.co.uk/radio4>;
    radiodns:bearer [
      a radiodns:BearerFM;
      radiodns:cost 30;
@@ -309,11 +316,4 @@
      radiodns:frequency "93.30";
      radiodns:gcc "ce1";
      radiodns:pi "c204"
-   ];
-   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
-   radiodns:homepage <http://www.bbc.co.uk/radio4>;
-   radiodns:longDescription "Intelligent speech, journalism, comedy, quizzes, poetry, drama, readings, politics, arts, discussion, documentaries, history, life stories, money, science, news and weather";
-   radiodns:longName "BBC Radio 4";
-   radiodns:mediumName "BBC Radio 4";
-   radiodns:shortDescription "Radio for curious minds";
-   radiodns:shortName "BBC R4" .
+   ] .
