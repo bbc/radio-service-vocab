@@ -5,7 +5,7 @@ A RDF vocabulary for describing Radio Stations.
 
 _This document is Work in Progress and is still being updated._
 
-It is heavily based on [TS 102 818 – Service and Programme Information] - aka RadioEPG.
+It is heavily based on [TS 103 270 - RadioDNS Hybrid Radio] and [TS 102 818 – Service and Programme Information] - aka RadioEPG.
 It is also influenced by the [BBC Programmes Ontology].
 
 
@@ -79,14 +79,15 @@ Sub-class of a generic bearer for IBOC (In-band on-channel), also known as HD Ra
 
 **Properties**
 
-| Property   | Expected Type | Description                                                                                                                                            |
-|------------|---------------|---------------------------------------------|
-| frequency  | Float         | The frequency of the broadcast in MHz       |
-| channel    | Integer       | The channel number                          |
-| facilityId | Integer       | The FCC assigned facility code              |
+| Property       | Expected Type | Description                                                                                                                                            |
+|----------------|---------------|------------------------------------------------|
+| frequency      | Float         | The frequency of the broadcast in MHz          |
+| channel        | Integer       | The channel number                             |
+| transmissionId | Integer       | In the US this is the FCC assigned facility ID |
 
 
 
 [BBC Programmes Ontology]: http://purl.org/ontology/po
+[TS 103 270 - RadioDNS Hybrid Radio]: http://www.etsi.org/deliver/etsi_ts%5C103200_103299%5C103270%5C01.02.01_60%5Cts_103270v010201p.pdf
 [TS 102 818 – Service and Programme Information]: http://www.etsi.org/deliver/etsi_ts/102800_102899/102818/03.01.01_60/ts_102818v030101p.pdf
 
