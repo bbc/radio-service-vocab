@@ -57,7 +57,7 @@
      radiodns:gcc "ce1";
      radiodns:pi "c204"
    ],  [
-     a radiodns:BeaererDAB;
+     a radiodns:BearerDAB;
      radiodns:cost 20;
      radiodns:eid "ce15";
      radiodns:gcc "ce1";
