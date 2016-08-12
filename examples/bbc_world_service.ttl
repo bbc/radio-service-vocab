@@ -9,7 +9,7 @@
    radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
    radiodns:homepage <http://www.bbc.co.uk/worldserviceradio>;
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 15575;
      radiodns:eid "ce15";
      radiodns:gcc "ce1";

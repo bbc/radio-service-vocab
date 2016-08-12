@@ -16,42 +16,42 @@
    radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
    radiodns:homepage <http://www.bbc.co.uk/radio4>;
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 198;
      radiodns:cost 35
    ] ;
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 603;
      radiodns:cost 34
    ] ;
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 720;
      radiodns:cost 34
    ] ;
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 774;
      radiodns:cost 34
    ] ;
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 756;
      radiodns:cost 34
    ] ;
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 1449;
      radiodns:cost 34
    ] ;
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 1485;
      radiodns:cost 34
    ] ;
    radiodns:bearer [
-     a radiodns:BeaererDAB;
+     a radiodns:BearerDAB;
      radiodns:cost 20;
      radiodns:eid "ce15";
      radiodns:gcc "ce1";
@@ -117,7 +117,7 @@
      radiodns:gcc "ce1";
      radiodns:pi "c204"
    ],  [
-     a radiodns:BeaererDAB;
+     a radiodns:BearerDAB;
      radiodns:cost 20;
      radiodns:eid "ce15";
      radiodns:gcc "ce1";

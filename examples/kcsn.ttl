@@ -5,7 +5,7 @@
    radiodns:mediumName "KCSN 88.5 Los Angeles";
    radiodns:homepage <http://www.kcsn.org/>;
    radiodns:bearer [
-     a radiodns:BeaererFM;
+     a radiodns:BearerFM;
      radiodns:frequncy "88.5";
    ];
    radiodns:bearer [

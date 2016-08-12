@@ -9,7 +9,7 @@
    radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
    radiodns:homepage <http://www.bbc.co.uk/5live>;
    radiodns:bearer [
-     a radiodns:BeaererDAB;
+     a radiodns:BearerDAB;
      radiodns:cost 20;
      radiodns:eid "ce15";
      radiodns:gcc "ce1";
@@ -18,14 +18,14 @@
      radiodns:sid "c225"
    ];
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 693;
    ];
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 909;
    ];
    radiodns:bearer [
-     a radiodns:BeaererAM;
+     a radiodns:BearerAM;
      radiodns:frequncy 990;
    ] .

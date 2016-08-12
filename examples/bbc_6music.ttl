@@ -9,7 +9,7 @@
    radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.6>;
    radiodns:homepage <http://www.bbc.co.uk/6music>;
    radiodns:bearer [
-     a radiodns:BeaererDAB;
+     a radiodns:BearerDAB;
      radiodns:cost 20;
      radiodns:eid "ce15";
      radiodns:gcc "ce1";

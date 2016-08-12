@@ -32,7 +32,7 @@ An individual Radio Service, also known as a Radio Station.
 | longName   | Text          | The name of the service (max 128 characters) |
 | genre      |               |                                              |
 | keywords   |               |                                              |
-| beaerer    |               | A service should have one or more Bearers.   |
+| bearer     |               | A service should have one or more Bearers.   |
 
 
 ### Service Group
