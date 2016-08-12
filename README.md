@@ -35,6 +35,24 @@ An individual Radio Service, also known as a Radio Station.
 | beaerer    |               | A service should have one or more Bearers.   |
 
 
+### Service Group
+
+A grouping of Services, which share some commonality, such as a family of related
+services that are part of a brand, or regional variants of services with a common name.
+
+Examples:
+* BBC Radio Four (Radio Four FM, Radio Four AM)
+* Capital (Capital London, Capital Manchester, Capital Yorkshire)
+
+
+| Property   | Expected Type | Description                                     |
+|------------|---------------|-------------------------------------------------|
+| shortName  | Text          | The name of the service (max 8 characters)      |
+| mediumName | Text          | The name of the service (max 16 characters)     |
+| longName   | Text          | The name of the service (max 128 characters)    |
+| service    |               | A service that is a member of the service group |
+
+
 ### Bearer
 
 An individual transmission mechanism for a Radio Service.
