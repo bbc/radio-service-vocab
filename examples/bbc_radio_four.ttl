@@ -1,5 +1,65 @@
 @prefix radiodns: <http://radiodns.org/ns/> .
 
+<http://www.bbc.co.uk/services/radio4#sg> a radiodns:ServiceGroup;
+   radiodns:shortName "BBC R4";
+   radiodns:mediumName "BBC Radio 4";
+   radiodns:longName "BBC Radio 4";
+   radiodns:service <http://www.bbc.co.uk/services/p00fzl7k#service>;
+   radiodns:service <http://www.bbc.co.uk/services/p00fzl7j#service> .
+
+<http://www.bbc.co.uk/services/p00fzl7k#service> a radiodns:Service;
+   radiodns:shortName "BBC R4LW" ;
+   radiodns:mediumName "BBC Radio 4 LW";
+   radiodns:longName "BBC Radio 4 LW";
+   radiodns:shortDescription "Radio for curious minds";
+   radiodns:longDescription "Intelligent speech, the most insightful journalism, the wittiest comedy, the most fascinating features and the most compelling drama and readings anywhere in UK radio";
+   radiodns:genre <urn:tva:metadata:cs:ContentCS:2002:3.1.1>;
+   radiodns:homepage <http://www.bbc.co.uk/radio4>;
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 198;
+     radiodns:cost 35
+   ] ;
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 603;
+     radiodns:cost 34
+   ] ;
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 720;
+     radiodns:cost 34
+   ] ;
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 774;
+     radiodns:cost 34
+   ] ;
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 756;
+     radiodns:cost 34
+   ] ;
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 1449;
+     radiodns:cost 34
+   ] ;
+   radiodns:bearer [
+     a radiodns:BeaererAM;
+     radiodns:frequncy 1485;
+     radiodns:cost 34
+   ] ;
+   radiodns:bearer [
+     a radiodns:BeaererDAB;
+     radiodns:cost 20;
+     radiodns:eid "ce15";
+     radiodns:gcc "ce1";
+     radiodns:mimeValue "audio/mpeg";
+     radiodns:scids "1";
+     radiodns:sid "c224"
+   ] .
+
 <http://www.bbc.co.uk/services/p00fzl7j#service> a radiodns:Service;
    radiodns:shortName "BBC R4";
    radiodns:mediumName "BBC Radio 4";
