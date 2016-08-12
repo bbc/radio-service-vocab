@@ -1,16 +1,17 @@
 @prefix radiodns: <http://radiodns.org/ns/> .
 
 <http://www.kcsn.org/kcsn-fm1> a radiodns:Service;
-   radiodns:shortName "KCSN" .
+   radiodns:shortName "KCSN" ;
    radiodns:mediumName "KCSN 88.5 Los Angeles";
    radiodns:homepage <http://www.kcsn.org/>;
    radiodns:bearer [
      a radiodns:BearerFM;
      radiodns:frequncy "88.5";
+     radiodns:pi "1729"
    ];
    radiodns:bearer [
      a radiodns:BearerIBOC;
      radiodns:frequency "88.5";
      radiodns:channel 1;
-     radiodns:transmissionId "21920",
+     radiodns:transmissionId "21920"
    ] .
