@@ -80,9 +80,18 @@ AM radio stations typically broadcast in medium wave band but also in parts of t
 |-----------|---------------|---------------------------------------------|
 | frequency | Integer       | The frequency of the broadcast in kHz       |
 
+
 ### BearerDAB
 
 Sub-class of a generic bearer for DAB (Digital Audio Broadcasting) and DAB+.
+
+| Property  | Expected Type | Description                                                                                                                                            |
+|-----------|---------------|---------------------------------------------|
+| eid       | Text          | Ensemble / multiplex identifier             |
+| gcc       | Text          | Global Country Code                         |
+| scids     | Text          | Service component identifier                |
+| sid       | Text          | The service identifier                      |
+
 
 ### BearerDRM
 
