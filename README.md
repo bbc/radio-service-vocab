@@ -97,6 +97,7 @@ Sub-class of a generic bearer for DAB (Digital Audio Broadcasting) and DAB+.
 
 Sub-class of a generic bearer for DRM (Digital Radio Mondiale).
 
+
 ### BearerFM
 
 Sub-class of a generic bearer for FM (Frequency Modulation) broadcasts.
@@ -107,6 +108,9 @@ FM radio stations use the VHF frequencies, typically in the range 87.5 to 108.0 
 | Property  | Expected Type | Description                                                                                                                                            |
 |-----------|---------------|---------------------------------------------|
 | frequency | Float         | The frequency of the broadcast in MHz       |
+| gcc       | Text          | Global Country Code                         |
+| pi        | Text          | The RDF Programme Identifier                |
+
 
 ### BearerIBOC
 
